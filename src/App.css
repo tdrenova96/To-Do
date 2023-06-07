@@ -1,0 +1,35 @@
+.app {
+  padding: 30px;
+  height: 100vh;
+  background-color: floralwhite;
+}
+
+.todo {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+}
+.form-control {
+
+  padding: 1.375rem 0.75rem !important;
+}
+button.btn.btn-primary.mb-3 {
+  margin-top: 15px;
+}
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: #dee2e6 !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%) !important;
+}
+form.form__box {
+  width: 80%;
+  margin: auto;
+}
+.card {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
